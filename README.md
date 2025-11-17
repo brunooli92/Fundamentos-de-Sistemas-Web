@@ -4,7 +4,8 @@ Para obtenção de nota na referida disciplina, está sendo desenvolvido um sist
 
 Para a Fase 1 do projeto, o principal objetivo é desenvolver o esqueleto estrutural do website para o pet shop, utilizando a semântica léxica do HTML5 para a fundação arquitetural de acordo com os requisitos da Fase 1.
 
-O atual sistema conta com duas páginas: “Início (Produtos”) e “Nossos serviços”. Ambas as páginas contam com uma estrutura padrão (header, body, footer) e utilizam hiperlinks para a navegação: 
+O atual sistema conta com duas páginas: “Início (Produtos”) e “Nossos serviços”. Ambas as páginas contam com uma estrutura padrão (header, body, footer) e utilizam hiperlinks para a navegação:
+
 •	Header: Contém o título principal do pet shop e o menu de navegação (<nav>) para acesso rápido às páginas.
 •	Body: Apresenta o conteúdo central e exclusivo de cada página (Produtos ou Serviços).
 •	Footer: Contém informações de autoria, contato e links legais, utilizando a tag <address> para formatação de contato.
