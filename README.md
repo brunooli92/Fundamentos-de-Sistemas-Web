@@ -10,4 +10,4 @@ O atual sistema conta com duas páginas: “Início (Produtos”) e “Nossos se
 <p> •	Body: Apresenta o conteúdo central e exclusivo de cada página. </p>
 <p> •	Footer: Contém informações de autoria, contato e links legais, utilizando a tag  <!-- <address> --> para formatação de contato. </p>
 
-O sistema foi desenvolvido intencionalmente sem customizações visuais (CSS) e sem interatividade programada (JavaScript), conforme instruções para a Fase 1.
+O sistema foi desenvolvido intencionalmente sem customizações (CSS e Bootstrap) e sem funções em JavaScript, conforme instruções para a Fase 1. Tais desenvolvimentos ocorrerão na Fase 2.
