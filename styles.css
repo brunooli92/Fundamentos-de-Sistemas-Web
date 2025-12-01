@@ -1,0 +1,23 @@
+.carousel-item {
+    background-color: #e9ecef; /* Cor neutra do padrão Bootstrap */
+    text-align: center; /* Centraliza a imagem horizontalmente se sobrarem bordas */
+}
+
+/* Garante que as imagens do carrossel tenham altura fixa */
+.carousel-img-fit {
+    height: 400px; /* Altura fixa solicitada */
+    width: auto;   /* Largura automática para manter a proporção */
+    max-width: 100%; /* Garante que não ultrapasse a largura da tela */
+    object-fit: contain; /* MUDANÇA CRÍTICA: Garante que a imagem inteira seja exibida sem cortes */
+    margin: 0 auto; /* Garante a centralização */
+}
+
+/* Espaçamento extra no rodapé */
+footer {
+    border-top: 4px solid #0d6efd; /* Linha azul do Bootstrap */
+}
+
+/* Marcação de preço nos cards */
+.text-primary {
+    font-size: 1.2rem;
+}

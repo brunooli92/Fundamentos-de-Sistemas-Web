@@ -4,55 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop Miau | Serviços</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Pet Shop Miau: Tudo para seu melhor amigo!</h1>
-        <nav>
-            <a href="index.html">Início (Produtos)</a> |
-            <a href="servicos.html">Nossos serviços</a>
-        </nav>
-        <hr/>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Pet Shop Miau</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendamento</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <h2>Serviços oferecidos</h2>
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Nossos serviços</h2>
 
-        <section>
-            <h3><mark>Estética e higiene</mark></h3>
-            
-            <dl>
-                <dt><strong>Banho simples</strong></dt>
-                <dd>Descrição: Inclui limpeza completa com shampoo hipoalergênico e secagem com toalha aquecida.</dd>
-                <dd>Valor: R$ <var>45.00</var></dd>
-                
-                <dt><strong>Tosa higiênica e banho</strong></dt>
-                <dd>Descrição: Banho, corte de unhas, limpeza de ouvidos e tosa higiênica nas áreas necessárias.</dd>
-                <dd>Valor: R$ <var>70.00</var></dd>
-            </dl>
-        </section>
-        
-        <hr/>
-        
-        <section>
-            <h3><mark>Saúde e bem-Estar</mark></h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white">Estética e higiene</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Banho simples</h5>
+                        <p class="card-text">Limpeza com shampoo hipoalergênico.</p>
+                        <p class="fw-bold">R$ 45,00</p>
+                        <hr>
+                        <h5 class="card-title">Tosa higiênica + banho</h5>
+                        <p class="card-text">Corte de unhas, limpeza de ouvidos e tosa.</p>
+                        <p class="fw-bold">R$ 70,00</p>
+                    </div>
+                </div>
+            </div>
 
-            <dl>
-                <dt><strong>Consulta veterinária (check-up)</strong></dt>
-                <dd>Descrição: Avaliação geral de saúde, medição de peso e orientação nutricional.</dd>
-                <dd>Valor: R$ <var>150.00</var></dd>
-                
-                <dt><strong>Vacinação antirrábica</strong></dt>
-                <dd>Descrição: Aplicação da vacina antirrábica.</dd>
-                <dd>Valor: R$ <var>85.00</var></dd>
-            </dl>
-        </section>
-
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-header bg-success text-white">Saúde e bem-estar</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Consulta veterinária</h5>
+                        <p class="card-text">Check-up geral e pesagem.</p>
+                        <p class="fw-bold">R$ 150,00</p>
+                        <hr>
+                        <h5 class="card-title">Vacinação antirrábica</h5>
+                        <p class="card-text">Aplicação e carteirinha.</p>
+                        <p class="fw-bold">R$ 85,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <hr/><hr/>
 
-     <footer class="bg-dark text-white text-center py-3 mt-4">
+    <footer class="bg-dark text-white text-center py-3 mt-4">
        <address>
             <p>Endereço: Rua dos Gatos, 123 | Telefone: (51) 99999-0000</p>
             <p>Entre em Contato: <a href="mailto:contato@petshopmiau.com.br">contato@petshopamiau.com.br</a></p>
@@ -65,6 +74,6 @@
         
         <p><small>&copy; <time datetime="2025-11-17">2025</time> Pet Shop Miau. Todos os direitos reservados.</small></p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
